@@ -1,0 +1,21 @@
+# Travis CI 配置文件
+# 用于定义 Node.js 项目的持续集成流程
+language: node_js  # 指定项目使用的编程语言为 Node.js
+# 指定 Node.js 版本为 10
+node_js:
+  - "10"
+# 添加 Chrome 浏览器支持
+# 用于运行需要浏览器环境的测试
+addons:
+  chrome: stable  # 使用稳定的 Chrome 版本
+# 需要使用 sudo 权限执行某些命令
+sudo: required
+# 在运行测试脚本之前需要执行的命令
+before_script:
+  # 修改 Chrome 沙箱的所有者，以解决权限问题
+  - "sudo chown root /opt/google/chrome/chrome-sandbox"
+  # 修改 Chrome 沙箱的权限，确保 Chrome 可以正常运行
+  - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
+# 运行的测试脚本
+# 执行 npm 的 test:unit 命令来运行单元测试
+script: npm run test:unit

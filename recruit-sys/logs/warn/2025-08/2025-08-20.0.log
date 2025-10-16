@@ -1,0 +1,1 @@
+2025-08-20 10:59:45.757 [restartedMain] "  " WARN  c.b.mybatisplus.core.injector.AbstractMethod - [com.recruit.mapper.NotifyMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]

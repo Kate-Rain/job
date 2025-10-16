@@ -1,0 +1,24 @@
+# 根配置，表示以下配置应用于整个文件
+root = true
+
+# 通配符[*]表示以下配置应用于所有文件
+[*]
+# 设置字符编码为utf-8
+charset = utf-8
+# 设置缩进风格为空格
+indent_style = space
+# 设置缩进大小为2个空格
+indent_size = 2
+# 设置行尾符为lf（Line Feed）
+end_of_line = lf
+# 设置文件末尾插入空行
+insert_final_newline = true
+# 设置删除行尾空格
+trim_trailing_whitespace = true
+
+# 针对Markdown文件(*.md)的特殊配置
+[*.md]
+# 设置Markdown文件末尾不插入空行
+insert_final_newline = false
+# 设置Markdown文件不删除行尾空格
+trim_trailing_whitespace = false

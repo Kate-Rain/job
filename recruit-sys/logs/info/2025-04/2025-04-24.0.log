@@ -1,0 +1,211 @@
+2025-04-24 13:03:02.651 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2025-04-24 13:03:02.687 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on LAPTOP-HI43GHPJ with PID 9912 (D:\001JavaTools\001Java项目\招聘系统\recruit-system\recruit-sys\target\classes started by 陆华荣 in D:\001JavaTools\001Java项目\招聘系统\recruit-system\recruit-sys)
+2025-04-24 13:03:02.688 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2025-04-24 13:03:02.760 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-24 13:03:03.591 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-24 13:03:03.593 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-24 13:03:03.641 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2025-04-24 13:03:04.165 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-04-24 13:03:04.452 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2025-04-24 13:03:04.462 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2025-04-24 13:03:04.463 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-24 13:03:04.463 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-24 13:03:04.539 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-24 13:03:04.539 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1779 ms
+2025-04-24 13:03:04.590 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-24 13:03:04.712 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-24 13:03:04.716 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://127.0.0.1:3306/recruit?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2025-04-24 13:03:06.416 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-24 13:03:06.855 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-24 13:03:06.887 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2025-04-24 13:03:06.922 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2025-04-24 13:03:07.375 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 5.339 seconds (JVM running for 6.161)
+2025-04-24 13:03:45.987 [http-nio-5000-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24 13:03:45.987 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-24 13:03:45.999 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2025-04-24 13:03:46.031 [http-nio-5000-exec-1] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:03:46.208 [http-nio-5000-exec-5] "OPTIONS /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:03:46.208 [http-nio-5000-exec-4] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:03:46.208 [http-nio-5000-exec-3] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:03:46.208 [http-nio-5000-exec-2] "OPTIONS /recruit/user/getGroup/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/9] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:03:46.294 [http-nio-5000-exec-7] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 0:0:0:0:0:0:0:1 costs: 71ms
+2025-04-24 13:03:46.294 [http-nio-5000-exec-8] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 0:0:0:0:0:0:0:1 costs: 71ms
+2025-04-24 13:03:46.305 [http-nio-5000-exec-10] "OPTIONS /recruit/user/refresh HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/refresh] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:03:46.354 [http-nio-5000-exec-9] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 0:0:0:0:0:0:0:1 costs: 131ms
+2025-04-24 13:03:46.361 [http-nio-5000-exec-1] "GET /recruit/user/refresh HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/refresh] from: 0:0:0:0:0:0:0:1 costs: 39ms
+2025-04-24 13:03:46.423 [http-nio-5000-exec-2] "GET /recruit/user/getGroup/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/9] from: 0:0:0:0:0:0:0:1 costs: 14ms
+2025-04-24 13:03:46.433 [http-nio-5000-exec-5] "OPTIONS /recruit/application/page/find/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/9] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:03:46.516 [http-nio-5000-exec-4] "GET /recruit/application/page/find/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/9] from: 0:0:0:0:0:0:0:1 costs: 38ms
+2025-04-24 13:03:52.483 [http-nio-5000-exec-10] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:03:52.483 [http-nio-5000-exec-9] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:03:52.496 [http-nio-5000-exec-1] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 0:0:0:0:0:0:0:1 costs: 9ms
+2025-04-24 13:03:52.502 [http-nio-5000-exec-2] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 15ms
+2025-04-24 13:04:18.762 [SpringContextShutdownHook] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户9连接断开，剩余在线数为:0
+2025-04-24 13:04:18.790 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-04-24 13:04:18.917 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-24 13:04:18.924 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-24 13:30:50.876 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2025-04-24 13:30:50.894 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on LAPTOP-HI43GHPJ with PID 8212 (D:\001JavaTools\001Java项目\招聘系统\recruit-system\recruit-sys\target\classes started by 陆华荣 in D:\001JavaTools\001Java项目\招聘系统\recruit-system\recruit-sys)
+2025-04-24 13:30:50.894 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2025-04-24 13:30:50.937 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-24 13:30:51.520 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-24 13:30:51.522 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-24 13:30:51.560 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2025-04-24 13:30:51.934 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-04-24 13:30:52.155 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2025-04-24 13:30:52.162 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2025-04-24 13:30:52.162 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-24 13:30:52.162 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-24 13:30:52.227 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-24 13:30:52.227 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1290 ms
+2025-04-24 13:30:52.269 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-24 13:30:52.365 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-24 13:30:52.371 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://127.0.0.1:3306/recruit?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2025-04-24 13:30:53.865 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-24 13:30:54.243 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-24 13:30:54.271 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2025-04-24 13:30:54.308 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2025-04-24 13:30:54.686 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 4.17 seconds (JVM running for 4.86)
+2025-04-24 13:31:37.513 [http-nio-5000-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24 13:31:37.513 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-24 13:31:37.523 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-04-24 13:31:37.556 [http-nio-5000-exec-1] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:31:37.673 [http-nio-5000-exec-2] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 45ms
+2025-04-24 13:31:41.105 [http-nio-5000-exec-3] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户9连接断开，剩余在线数为:0
+2025-04-24 13:31:41.499 [http-nio-5000-exec-5] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 0:0:0:0:0:0:0:1 costs: 58ms
+2025-04-24 13:31:41.499 [http-nio-5000-exec-7] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 0:0:0:0:0:0:0:1 costs: 58ms
+2025-04-24 13:31:41.555 [http-nio-5000-exec-4] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 0:0:0:0:0:0:0:1 costs: 114ms
+2025-04-24 13:31:50.126 [http-nio-5000-exec-9] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-24 13:31:50.126 [http-nio-5000-exec-10] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-24 13:31:50.131 [http-nio-5000-exec-8] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 0:0:0:0:0:0:0:1 costs: 11ms
+2025-04-24 13:31:50.147 [http-nio-5000-exec-2] "GET /assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg] from: 0:0:0:0:0:0:0:1 costs: 6ms
+2025-04-24 13:31:50.148 [http-nio-5000-exec-3] "GET /assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg] from: 0:0:0:0:0:0:0:1 costs: 6ms
+2025-04-24 13:31:50.149 [http-nio-5000-exec-1] "GET /assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg] from: 0:0:0:0:0:0:0:1 costs: 8ms
+2025-04-24 13:31:50.318 [http-nio-5000-exec-7] "GET /assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-24 13:31:58.211 [http-nio-5000-exec-5] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:31:58.489 [http-nio-5000-exec-4] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 274ms
+2025-04-24 13:31:58.492 [http-nio-5000-exec-6] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:31:58.541 [http-nio-5000-exec-9] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 34ms
+2025-04-24 13:31:58.553 [http-nio-5000-exec-8] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/4] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:31:58.553 [http-nio-5000-exec-2] "OPTIONS /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/4] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:31:58.554 [http-nio-5000-exec-10] "GET /assets/2024/06/09/14677316236d4d2bb3192bb3002452e2.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/09/14677316236d4d2bb3192bb3002452e2.jpg] from: 0:0:0:0:0:0:0:1 costs: 1ms
+2025-04-24 13:31:58.565 [http-nio-5000-exec-3] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 0:0:0:0:0:0:0:1 costs: 7ms
+2025-04-24 13:31:58.570 [http-nio-5000-exec-7] "OPTIONS /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/4] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:31:58.571 [http-nio-5000-exec-1] "GET /recruit/user/getGroup/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/4] from: 0:0:0:0:0:0:0:1 costs: 2ms
+2025-04-24 13:31:58.579 [http-nio-5000-exec-4] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:31:58.621 [http-nio-5000-exec-5] "GET /recruit/application/page/find/4 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/4] from: 0:0:0:0:0:0:0:1 costs: 40ms
+2025-04-24 13:32:00.812 [http-nio-5000-exec-2] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:32:00.812 [http-nio-5000-exec-8] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:32:00.823 [http-nio-5000-exec-3] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 0:0:0:0:0:0:0:1 costs: 8ms
+2025-04-24 13:32:00.825 [http-nio-5000-exec-10] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:32:06.385 [http-nio-5000-exec-4] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户null连接断开，剩余在线数为:1
+2025-04-24 13:32:06.385 [http-nio-5000-exec-5] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户4连接断开，剩余在线数为:0
+2025-04-24 13:32:06.579 [http-nio-5000-exec-9] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:32:06.726 [http-nio-5000-exec-8] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 9ms
+2025-04-24 13:32:31.732 [http-nio-5000-exec-3] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户4连接断开，剩余在线数为:0
+2025-04-24 13:32:32.439 [http-nio-5000-exec-1] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-24 13:32:32.439 [http-nio-5000-exec-7] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 0:0:0:0:0:0:0:1 costs: 3ms
+2025-04-24 13:32:32.444 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:32:40.523 [http-nio-5000-exec-5] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 123ms
+2025-04-24 13:32:40.534 [http-nio-5000-exec-4] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 7ms
+2025-04-24 13:32:40.545 [http-nio-5000-exec-9] "OPTIONS /recruit/user/getGroup/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/9] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:32:40.545 [http-nio-5000-exec-2] "OPTIONS /recruit/user/getGroup/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/9] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:32:40.552 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/9] from: 0:0:0:0:0:0:0:1 costs: 2ms
+2025-04-24 13:32:40.557 [http-nio-5000-exec-3] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:32:40.558 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/9] from: 0:0:0:0:0:0:0:1 costs: 3ms
+2025-04-24 13:32:40.566 [http-nio-5000-exec-7] "OPTIONS /recruit/application/page/find/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/9] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:32:40.588 [http-nio-5000-exec-1] "GET /recruit/application/page/find/9 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/9] from: 0:0:0:0:0:0:0:1 costs: 14ms
+2025-04-24 13:32:41.352 [http-nio-5000-exec-10] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:32:42.438 [http-nio-5000-exec-3] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:32:42.445 [http-nio-5000-exec-6] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 0:0:0:0:0:0:0:1 costs: 7ms
+2025-04-24 13:32:42.446 [http-nio-5000-exec-7] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-24 13:32:50.863 [http-nio-5000-exec-7] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户9连接断开，剩余在线数为:0
+2025-04-24 13:32:50.863 [http-nio-5000-exec-6] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户9连接断开，剩余在线数为:0
+2025-04-24 13:33:21.330 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:33:21.330 [http-nio-5000-exec-3] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:33:21.333 [http-nio-5000-exec-9] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 7ms
+2025-04-24 13:33:21.366 [http-nio-5000-exec-7] "GET /assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:33:21.367 [http-nio-5000-exec-6] "GET /assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg] from: 127.0.0.1 costs: 5ms
+2025-04-24 13:33:21.419 [http-nio-5000-exec-2] "GET /assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg] from: 127.0.0.1 costs: 2ms
+2025-04-24 13:33:28.919 [http-nio-5000-exec-10] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:29.044 [http-nio-5000-exec-1] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 123ms
+2025-04-24 13:33:29.048 [http-nio-5000-exec-4] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:29.058 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 6ms
+2025-04-24 13:33:29.079 [http-nio-5000-exec-3] "OPTIONS /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 1ms
+2025-04-24 13:33:29.079 [http-nio-5000-exec-5] "OPTIONS /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 1ms
+2025-04-24 13:33:29.085 [http-nio-5000-exec-9] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:33:29.085 [http-nio-5000-exec-7] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:33:29.092 [http-nio-5000-exec-6] "OPTIONS /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:29.095 [http-nio-5000-exec-10] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:33:29.109 [http-nio-5000-exec-2] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 7ms
+2025-04-24 13:33:30.996 [http-nio-5000-exec-8] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:30.999 [http-nio-5000-exec-3] "OPTIONS /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:31.006 [http-nio-5000-exec-5] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 7ms
+2025-04-24 13:33:31.008 [http-nio-5000-exec-7] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 5ms
+2025-04-24 13:33:37.302 [http-nio-5000-exec-2] "OPTIONS /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:37.302 [http-nio-5000-exec-4] "OPTIONS /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/category] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:37.303 [http-nio-5000-exec-10] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:33:37.303 [http-nio-5000-exec-1] "OPTIONS /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/company/find] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:37.307 [http-nio-5000-exec-3] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 2ms
+2025-04-24 13:33:37.310 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:33:37.310 [http-nio-5000-exec-8] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 6ms
+2025-04-24 13:33:37.324 [http-nio-5000-exec-6] "GET /assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:33:37.341 [http-nio-5000-exec-7] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 13ms
+2025-04-24 13:33:39.678 [http-nio-5000-exec-9] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:33:39.695 [http-nio-5000-exec-2] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 7ms
+2025-04-24 13:33:40.248 [http-nio-5000-exec-4] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 5ms
+2025-04-24 13:33:40.248 [http-nio-5000-exec-10] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 5ms
+2025-04-24 13:33:41.606 [http-nio-5000-exec-1] "OPTIONS /recruit/interview/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/interview/page/find/5] from: 127.0.0.1 costs: 0ms
+2025-04-24 13:33:41.639 [http-nio-5000-exec-3] "GET /recruit/interview/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/interview/page/find/5] from: 127.0.0.1 costs: 24ms
+2025-04-24 13:33:51.143 [http-nio-5000-exec-6] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户null连接断开，剩余在线数为:1
+2025-04-24 13:33:51.143 [http-nio-5000-exec-7] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户5连接断开，剩余在线数为:0
+2025-04-24 13:33:51.894 [http-nio-5000-exec-9] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:33:52.012 [http-nio-5000-exec-2] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 6ms
+2025-04-24 13:34:16.309 [http-nio-5000-exec-4] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户5连接断开，剩余在线数为:0
+2025-04-24 13:34:17.343 [http-nio-5000-exec-7] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 6ms
+2025-04-24 13:34:17.345 [http-nio-5000-exec-9] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:34:17.346 [http-nio-5000-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 9ms
+2025-04-24 13:34:17.472 [http-nio-5000-exec-2] "GET /assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:34:17.473 [http-nio-5000-exec-4] "GET /assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:34:17.474 [http-nio-5000-exec-1] "GET /assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg] from: 127.0.0.1 costs: 1ms
+2025-04-24 13:34:17.478 [http-nio-5000-exec-10] "GET /assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:34:27.454 [http-nio-5000-exec-3] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 127.0.0.1 costs: 124ms
+2025-04-24 13:34:27.466 [http-nio-5000-exec-8] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 127.0.0.1 costs: 6ms
+2025-04-24 13:34:27.487 [http-nio-5000-exec-5] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:34:27.487 [http-nio-5000-exec-7] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:34:27.492 [http-nio-5000-exec-9] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:34:27.514 [http-nio-5000-exec-6] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 127.0.0.1 costs: 9ms
+2025-04-24 13:34:27.707 [http-nio-5000-exec-2] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:34:29.362 [http-nio-5000-exec-10] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:34:29.364 [http-nio-5000-exec-3] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 127.0.0.1 costs: 5ms
+2025-04-24 13:35:27.752 [http-nio-5000-exec-8] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户5连接断开，剩余在线数为:0
+2025-04-24 13:35:27.752 [http-nio-5000-exec-7] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户5连接断开，剩余在线数为:0
+2025-04-24 13:35:27.753 [http-nio-5000-exec-3] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:35:27.754 [http-nio-5000-exec-5] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:35:27.769 [http-nio-5000-exec-10] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 22ms
+2025-04-24 13:35:28.608 [http-nio-5000-exec-9] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:35:28.608 [http-nio-5000-exec-2] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:35:28.611 [http-nio-5000-exec-6] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 127.0.0.1 costs: 7ms
+2025-04-24 13:35:28.697 [http-nio-5000-exec-4] "GET /assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/c8e8ed103fe247fc9958f8279e4e469a.jpg] from: 127.0.0.1 costs: 4ms
+2025-04-24 13:35:28.700 [http-nio-5000-exec-1] "GET /assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/3c5e26044eea41389da2f71fdd28288f.jpg] from: 127.0.0.1 costs: 3ms
+2025-04-24 13:35:28.702 [http-nio-5000-exec-7] "GET /assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/09/d84796b2ffb143558cd3f73396fb5abd.jpg] from: 127.0.0.1 costs: 1ms
+2025-04-24 13:35:28.705 [http-nio-5000-exec-8] "GET /assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/assets/2024/06/08/599d79c4758a4748bcd9b4517e1ee0b6.jpg] from: 127.0.0.1 costs: 2ms
+2025-04-24 13:35:47.320 [http-nio-5000-exec-3] "OPTIONS /recruit/user/getMailCode HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getMailCode] from: 127.0.0.1 costs: 1ms
+2025-04-24 13:35:48.655 [http-nio-5000-exec-5] "POST /recruit/user/getMailCode HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/getMailCode] from: 127.0.0.1 costs: 1333ms
+2025-04-24 13:36:50.144 [http-nio-5000-exec-1] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:36:50.340 [http-nio-5000-exec-7] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 194ms
+2025-04-24 13:36:50.343 [http-nio-5000-exec-8] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:36:50.363 [http-nio-5000-exec-3] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 16ms
+2025-04-24 13:36:50.380 [http-nio-5000-exec-5] "OPTIONS /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/5] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:36:50.380 [http-nio-5000-exec-9] "OPTIONS /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/5] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:36:50.389 [http-nio-5000-exec-10] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 0:0:0:0:0:0:0:1 costs: 4ms
+2025-04-24 13:36:50.395 [http-nio-5000-exec-6] "OPTIONS /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/application/page/find/5] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:36:50.395 [http-nio-5000-exec-2] "GET /recruit/user/getGroup/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/5] from: 0:0:0:0:0:0:0:1 costs: 3ms
+2025-04-24 13:36:50.402 [http-nio-5000-exec-1] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:36:50.416 [http-nio-5000-exec-4] "GET /recruit/application/page/find/5 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/application/page/find/5] from: 0:0:0:0:0:0:0:1 costs: 10ms
+2025-04-24 13:36:51.828 [http-nio-5000-exec-3] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-24 13:36:52.287 [http-nio-5000-exec-9] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-24 13:36:52.293 [http-nio-5000-exec-5] "GET /recruit/position/page/1 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/1] from: 0:0:0:0:0:0:0:1 costs: 6ms
+2025-04-24 13:36:52.295 [http-nio-5000-exec-10] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-24 13:36:57.887 [http-nio-5000-exec-4] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户5连接断开，剩余在线数为:0
+2025-04-24 13:36:57.887 [http-nio-5000-exec-1] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户5连接断开，剩余在线数为:1

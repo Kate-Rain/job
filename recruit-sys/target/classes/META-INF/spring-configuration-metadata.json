@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.recruit.common.configuration.CodeMessageConfiguration",
+      "sourceType": "com.recruit.common.configuration.CodeMessageConfiguration"
+    },
+    {
+      "name": "lin.file",
+      "type": "com.recruit.module.file.FileProperties",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "code-message",
+      "type": "java.util.Map<java.lang.Integer,java.lang.String>",
+      "sourceType": "com.recruit.common.configuration.CodeMessageConfiguration"
+    },
+    {
+      "name": "lin.file.domain",
+      "type": "java.lang.String",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.exclude",
+      "type": "java.lang.String[]",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.include",
+      "type": "java.lang.String[]",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.serve-path",
+      "type": "java.lang.String",
+      "description": "文件存储路径",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.single-limit",
+      "type": "java.lang.String",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    },
+    {
+      "name": "lin.file.store-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.recruit.module.file.FileProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,43 @@
+2025-04-07 23:30:52.093 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2025-04-07 23:30:52.126 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Starting RecruitApplication on LAPTOP-HI43GHPJ with PID 13812 (D:\001JavaTools\001Java项目\招聘系统\recruit-system\recruit-sys\target\classes started by 陆华荣 in D:\001JavaTools\001Java项目\招聘系统\recruit-system\recruit-sys)
+2025-04-07 23:30:52.127 [restartedMain] "  " INFO  com.recruit.RecruitApplication - The following profiles are active: dev
+2025-04-07 23:30:52.180 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-07 23:30:52.897 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-07 23:30:52.900 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-07 23:30:52.949 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2025-04-07 23:30:53.461 [restartedMain] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [com.recruit.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-04-07 23:30:53.742 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2025-04-07 23:30:53.752 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2025-04-07 23:30:53.752 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-07 23:30:53.752 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-07 23:30:53.827 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-07 23:30:53.827 [restartedMain] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1646 ms
+2025-04-07 23:30:53.873 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-07 23:30:53.993 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-07 23:30:53.997 [restartedMain] "  " INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://127.0.0.1:3306/recruit?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF8&allowPublicKeyRetrieval=true'
+2025-04-07 23:30:55.769 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-07 23:30:56.327 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-07 23:30:56.365 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2025-04-07 23:30:56.407 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2025-04-07 23:30:56.897 [restartedMain] "  " INFO  com.recruit.RecruitApplication - Started RecruitApplication in 5.347 seconds (JVM running for 6.716)
+2025-04-07 23:31:25.165 [http-nio-5000-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-07 23:31:25.165 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-07 23:31:25.172 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2025-04-07 23:31:25.294 [http-nio-5000-exec-3] "GET /recruit/category HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/category] from: 0:0:0:0:0:0:0:1 costs: 96ms
+2025-04-07 23:31:25.294 [http-nio-5000-exec-1] "GET /recruit/company/find HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/company/find] from: 0:0:0:0:0:0:0:1 costs: 96ms
+2025-04-07 23:31:25.321 [http-nio-5000-exec-2] "GET /recruit/position/page/keyword HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/position/page/keyword] from: 0:0:0:0:0:0:0:1 costs: 123ms
+2025-04-07 23:31:33.339 [http-nio-5000-exec-7] "OPTIONS /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-07 23:31:33.563 [http-nio-5000-exec-8] "POST /recruit/user/login HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [POST] -> [/recruit/user/login] from: 0:0:0:0:0:0:0:1 costs: 218ms
+2025-04-07 23:31:33.566 [http-nio-5000-exec-9] "OPTIONS /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-07 23:31:33.616 [http-nio-5000-exec-10] "GET /recruit/user/permissions HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/permissions] from: 0:0:0:0:0:0:0:1 costs: 40ms
+2025-04-07 23:31:33.631 [http-nio-5000-exec-1] "OPTIONS /recruit/user/getGroup/6 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/6] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-07 23:31:33.631 [http-nio-5000-exec-3] "OPTIONS /recruit/user/getGroup/6 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/user/getGroup/6] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-07 23:31:33.642 [http-nio-5000-exec-2] "GET /recruit/user/getGroup/6 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/6] from: 0:0:0:0:0:0:0:1 costs: 5ms
+2025-04-07 23:31:33.649 [http-nio-5000-exec-6] "GET /recruit/user/getGroup/6 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/user/getGroup/6] from: 0:0:0:0:0:0:0:1 costs: 4ms
+2025-04-07 23:31:33.676 [http-nio-5000-exec-4] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-07 23:31:33.902 [http-nio-5000-exec-5] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】有新的连接，总数为:1
+2025-04-07 23:31:34.919 [http-nio-5000-exec-7] "  " INFO  com.recruit.module.message.WebSocket - 【websocket消息】用户6连接断开，剩余在线数为:1
+2025-04-07 23:31:35.885 [http-nio-5000-exec-9] "OPTIONS /recruit/hr-company/6 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/hr-company/6] from: 0:0:0:0:0:0:0:1 costs: 0ms
+2025-04-07 23:31:35.885 [http-nio-5000-exec-8] "OPTIONS /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 1ms
+2025-04-07 23:31:35.905 [http-nio-5000-exec-1] "GET /recruit/notify HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/notify] from: 0:0:0:0:0:0:0:1 costs: 17ms
+2025-04-07 23:31:35.906 [http-nio-5000-exec-10] "GET /recruit/hr-company/6 HTTP/1.1" INFO  c.recruit.common.interceptor.RequestLogInterceptor - [GET] -> [/recruit/hr-company/6] from: 0:0:0:0:0:0:0:1 costs: 18ms

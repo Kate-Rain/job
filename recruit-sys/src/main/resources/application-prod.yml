@@ -1,0 +1,44 @@
+#生产环境配置
+
+server:
+  # 服务端口
+  port: 5000
+
+spring:
+  # 数据源配置
+  datasource:
+    username: root
+    password: ${MYSQL_PASSWORD:123456}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/recruit?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF8&allowPublicKeyRetrieval=true
+
+  # Redis配置
+  redis:
+    database: 0
+    host: redis
+    port: 6379
+    password: ${REDIS_PASSWORD:}
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 3
+    connect-timeout: 100
+
+# 开启权限拦截
+auth:
+  enabled: true
+
+# 开启请求日志记录
+request-log:
+  enabled: true
+
+logging:
+  level:
+    # SQL日志记录
+    com.recruit.mapper: info
+  file:
+    name: /app/logs/recruit-app.log
+    max-size: 10MB
+    max-history: 30

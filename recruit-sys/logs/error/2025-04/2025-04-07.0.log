@@ -1,0 +1,1 @@
+2025-04-07 23:31:34.915 [http-nio-5000-exec-7] "  " ERROR com.recruit.module.message.WebSocket - 用户错误,原因:Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1/<unresolved>:6379
